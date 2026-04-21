@@ -1,0 +1,10 @@
+{
+  "name": "intelligent-disk-scheduling-optimizer",
+  "version": "1.0.0",
+  "description": "AI-powered disk scheduling optimizer with React frontend and Express backend",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}

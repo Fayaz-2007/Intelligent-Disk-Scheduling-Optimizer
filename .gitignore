@@ -1,0 +1,39 @@
+# ── Secrets ──────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ───────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / frontend ──────────────────
+node_modules/
+dist/
+build/
+.vite/
+*.log
+
+# ── ML artefacts (local-only) ────────
+backend/ml/disk_dataset.csv
+backend/ml/model.pkl
+backend/ml/label_encoder.pkl
+
+# ── Legacy SQLite from old backend ───
+backend/optimizer.db
+
+# ── OS / IDE ─────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
